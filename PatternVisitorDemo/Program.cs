@@ -53,5 +53,13 @@ void LoopWithVisitors()
   }
   Console.WriteLine($"OperationX: {visitorX.Value}");
   Console.WriteLine("---------------------------------------------");
+  
+  var visitorY = new VisitorY();
+  foreach (var item in elements)
+  {
+    item.Accept(visitorY);
+  }
+  string result = string.Join(";", visitorY.Names);
+  Console.WriteLine($"OperationY: {result}");
 }
 

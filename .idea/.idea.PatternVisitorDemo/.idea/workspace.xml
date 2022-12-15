@@ -4,7 +4,7 @@
     <projectFile>PatternVisitorDemo/PatternVisitorDemo.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="54f5974e-bc50-406a-9368-9fe4c040648e" name="Changes" comment="">
+    <list default="true" id="54f5974e-bc50-406a-9368-9fe4c040648e" name="Changes" comment="Add OperationA, Visitors and Elements">
       <change beforePath="$PROJECT_DIR$/PatternVisitorDemo/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/PatternVisitorDemo/Program.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -57,8 +57,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1671110466770</updated>
-      <workItem from="1671110473824" duration="1297000" />
+      <workItem from="1671110473824" duration="1772000" />
     </task>
+    <task id="LOCAL-00001" summary="Add OperationA, Visitors and Elements">
+      <created>1671112006065</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1671112006065</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -79,5 +87,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+    <MESSAGE value="Add OperationA, Visitors and Elements" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add OperationA, Visitors and Elements" />
   </component>
 </project>
