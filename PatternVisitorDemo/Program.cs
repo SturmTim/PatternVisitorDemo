@@ -1,11 +1,11 @@
-﻿//using ElementLib;
-//using VisitorLib;
-using ElementLibWithoutVisitor;
+﻿using ElementLib;
+using VisitorLib;
+//using ElementLibWithoutVisitor;
 
 
 List<Element> elements = CreateElements(10);
-LoopWithoutVisitors();
-//LoopWithVisitors();
+//LoopWithoutVisitors();
+LoopWithVisitors();
 Console.ReadLine();
 
 List<Element> CreateElements(int nr)
@@ -23,6 +23,7 @@ List<Element> CreateElements(int nr)
 
 void LoopWithoutVisitors()
 {
+  /*
   int value = 0;
   foreach (var item in elements)
   {
@@ -40,9 +41,17 @@ void LoopWithoutVisitors()
   }
   string result = string.Join(";", names);
   Console.WriteLine($"OperationY: {result}");
+  */
 }
 
 void LoopWithVisitors()
 {
+  var visitorX = new VisitorX();
+  foreach (var item in elements)
+  {
+    item.Accept(visitorX);
+  }
+  Console.WriteLine($"OperationX: {visitorX.Value}");
+  Console.WriteLine("---------------------------------------------");
 }
 
